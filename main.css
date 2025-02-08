@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.align, ul {
+    text-align: center;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} /* thus the dots were removed */
+
+
+.container {
+    display: flex; /* flexbox for alignment */
+    flex-direction: column; /* stack elements vertically */
+    justify-content: center; /* center elements vertically */
+    align-items: center; /* center elements horizontally */
+    height: 100vh; /* full viewport height */
+}
+
+.align {
+    margin: 10px; /* space between elements */
+}
+
+.container::after {
+    content: '';
+    height: 200px;
+    display: block;
+} /* the ::after pseudo-element
+creates extra space beneath the elemenths,
+moving them slightly above the center */
+
