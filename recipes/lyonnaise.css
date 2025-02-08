@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    display: flex; /* flexbox for alignment */
+    flex-direction: column; /* stack elements vertically */
+    justify-content: center; /* center elements vertically */
+    align-items: center; /* center elements horizontally */
+    height: 145vh; /* full viewport height */
+}
+
+.align, h3, ol, ul {
+    margin: 10px; /* space between elements */
+}
+
+h1, h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ol, ul {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
