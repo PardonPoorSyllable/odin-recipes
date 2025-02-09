@@ -8,6 +8,10 @@ html, body {
     height: 100%;
 }
 
+body {
+    background-color: blanchedalmond;
+}
+
 .align, ul {
     text-align: center;
 }
@@ -31,7 +35,7 @@ ul {
 }
 
 .align {
-    margin: 10px; /* space between elements */
+    margin: 5px; /* space between elements */
 }
 
 .container::after {
